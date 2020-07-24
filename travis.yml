@@ -8,4 +8,5 @@ before_install:
 script:
     - docker run -e CI=true stevenu/docker-react npm run test
 
-language: generic 
+language: 
+    - generic 
